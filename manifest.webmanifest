@@ -1,0 +1,16 @@
+{
+  "id": "./",
+  "name": "주유·작업 월별 정산",
+  "short_name": "주유 정산",
+  "description": "주유량, 총 Km와 작업 횟수를 휴대폰에 기록하고 월별 정산하는 앱",
+  "lang": "ko-KR",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f3f7f4",
+  "theme_color": "#155e4b",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
