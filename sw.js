@@ -1,4 +1,4 @@
-const CACHE = 'fuel-work-pwa-v2';
+const CACHE = 'fuel-work-pwa-v1';
 const FILES = ['./', './index.html', './manifest.webmanifest', './icon.svg'];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(FILES)));
